@@ -1,0 +1,29 @@
+
+/* media for project section  */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .projects {
+        width: 20vw;
+    }
+}
+
+@media (min-width: 613px) and (max-width: 991px) {
+    .projects {
+        width: 17vw;
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 612px) {
+    .projects {
+        width: 90vw;
+        height: 20vh;
+    }
+
+    .projects img {
+        max-width: 6vh;
+    }
+
+    #myprojectssection {
+        height: 179vh;
+    }
+}
