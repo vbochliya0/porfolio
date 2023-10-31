@@ -196,15 +196,14 @@ h1 {
     background-position: center center;
     background-size: cover;
     z-index: -1;
-    opacity: 0.85;
-}
-
-#myprojectssection {
+    opacity: 0.85; 
     display: flex;
     flex-direction: column;
     width: 100vw;
     height: 100vh;
+    
 }
+
 
 #section2div1 {
     height: 11vh;
@@ -213,16 +212,19 @@ h1 {
     font-size: 2rem;
     font-weight: 150;
     padding-top: .5rem;
+    background-color: #d0eeeb59;
 }
 
 #section2div2 {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 82vh;
+    height: 89vh;
     padding: 1rem;
     align-items: center;
     justify-content: center;
+    background-color: #d0eeeb59;
+   
 }
 
 .projects {
@@ -295,18 +297,18 @@ h1 {
 
 
 /* skills and achivments */
-#skillsandachbimg {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
+
+
+#skillsandachsection {
+    content: "";
+    background-image: url('images/bg2.avif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     z-index: -10;
-    opacity: .4;
-    overflow: hidden;
+    opacity: .8;
 }
 
-#skillsandachbimg img {
-    width: 100%;
-}
 
 #skillsandachsection {
     width: 100vw;
@@ -329,17 +331,20 @@ h1 {
 #skillsandachsection1 {
     height: 15vh;
     width: 100vw;
+    background-color: #89dfd773;
 }
 
 #skillsandachsection2 {
     width: 100vw;
     height: 85vh;
+    background-color: #89dfd773;
     display: grid;
     grid-template-areas:
         'skills1 skills1 skills1 skills1 skills1 skills1 skills1 skills2 skills2 skills2 skills2 skills2 '
         'skills3 skills3 skills3 skills3 skills4 skills4 skills4 skills4 skills6 skills6 skills6 skills6'
         'skills5 skills5 skills5 skills5 skills5 skills5 skills5 skills5 skills6 skills6 skills6 skills6 '
     ;
+
 }
 
 .skills {
@@ -349,7 +354,6 @@ h1 {
     display: grid;
     text-align: center;
     border-radius: .4rem;
-    background-color: #14eeda14;
 }
 
 .skills:hover {
@@ -399,18 +403,16 @@ h1 {
 
 
 /* contact seection  */
-#contactbimg {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    z-index: -10;
-    opacity: .5;
-    overflow: hidden;
+#contactsection {
+    content: "";
+    background-image: url('images/bg3.avif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.7;
 }
 
-#contactbimg img {
-    width: 100%;
-}
 
 #contactsection {
     height: 100vh;
@@ -467,9 +469,9 @@ h1 {
 }
 
 #contactimg img {
-    height: 5rem;
-    width: 7rem;
-    margin: 2rem;
+    height: 6vw;
+    width: 8vw;
+    margin: 3vw;
     opacity: .5;
 
 }
