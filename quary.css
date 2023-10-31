@@ -1,4 +1,12 @@
 
+/* globel */
+
+@media (max-width: 612px) {
+    h1{
+        font-size: 2.5rem;
+    }
+}
+
 /* media for navbar */
 @media (max-width: 438px) {    
     #navbar{
@@ -66,7 +74,16 @@
 
 
 /* media for home section  */
-@media (min-width: 0px) and (max-width: 596px) {
+@media (min-width: 596px) and (max-width: 817px) {
+   #section1divimg{
+    width: 37vw;
+   }
+   #divcontainer12{
+    width: 35vw;
+   }
+}
+
+@media (max-width: 596px) {
     #section1divimg{
      width: 50vw;
     }
@@ -76,7 +93,7 @@
     #section1div1{
         font-size: .9rem;
     }
-    #section1di0v2{
+    #section1div2{
         font-size: 2rem;
     }
     #section1divlast{
@@ -85,14 +102,6 @@
  }
  
 
-@media (min-width: 596px) and (max-width: 817px) {
-   #section1divimg{
-    width: 37vw;
-   }
-   #divcontainer12{
-    width: 35vw;
-   }
-}
 
 
 
@@ -113,28 +122,33 @@
 }
 
 @media (max-width: 612px) {
+      #myprojectssection {
+        height: 218vh;
+    }
     .projects {
         width: 90vw;
-        height: 20vh;
+        height: 27vh;
     }
 
     .projects img {
         max-width: 6vh;
     }
 
-    #myprojectssection {
-        height: 179vh;
-    }
+  
 }
 
 
 /* media for skills section  */
-@media (min-width: 100px) and (max-width: 576px) {
+@media (max-width: 576px) {
     #skillsandachsection{
         font-size: .8rem;
     }
 }
 
-
+@media (max-width: 612px) {
+    #skillsandachsection1 {
+        font-size: 2rem;
+    }
+}
 
 
