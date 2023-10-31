@@ -1,4 +1,103 @@
 
+/* media for navbar */
+@media (max-width: 438px) {    
+    #navbar{
+     border-radius: 0rem;
+     border: none;
+     width: 100vw;
+     margin-left: 0vw;
+     left: 0vw;
+    }
+    #navbarlogo{
+        width: 15vw;
+        height: 6vw;
+    }
+    #navbarlogo img{
+        width: 100%;
+    }
+     #navbar ul {
+         width: 70vw;
+         font-size: 1rem;
+     }
+     #navbarcontact{
+   display: none;
+     }
+ }
+
+@media (min-width: 439px) and (max-width: 610px) {    
+    #navbar{
+     border-radius: 0rem;
+     border: none;
+     width: 100vw;
+     margin-left: 0vw;
+     left: 0vw;
+    }
+    #navbarlogo{
+        width: 15vw;
+        height: 6vw;
+    }
+    #navbarlogo img{
+        width: 100%;
+    }
+     #navbar ul {
+         width: 50vw;
+     }
+     #navbarcontact{
+   width: 4.3rem;
+   font-size: .8rem;
+     }
+ }
+ 
+
+@media (min-width: 611px) and (max-width: 878px) {
+   #navbar{
+    border-radius: 1rem;
+   }
+    #navbar ul {
+        width: 50vw;
+    }
+    #navbarcontact{
+  width: 4.3rem;
+  font-size: .8rem;
+    }
+}
+
+
+
+
+/* media for home section  */
+@media (min-width: 0px) and (max-width: 596px) {
+    #section1divimg{
+     width: 50vw;
+    }
+    #divcontainer12{
+     width: 30vw;
+    }
+    #section1div1{
+        font-size: .9rem;
+    }
+    #section1di0v2{
+        font-size: 2rem;
+    }
+    #section1divlast{
+        font-size: .9rem;
+    }
+ }
+ 
+
+@media (min-width: 596px) and (max-width: 817px) {
+   #section1divimg{
+    width: 37vw;
+   }
+   #divcontainer12{
+    width: 35vw;
+   }
+}
+
+
+
+
+
 /* media for project section  */
 @media (min-width: 992px) and (max-width: 1199px) {
     .projects {
@@ -27,3 +126,15 @@
         height: 179vh;
     }
 }
+
+
+/* media for skills section  */
+@media (min-width: 100px) and (max-width: 576px) {
+    #skillsandachsection{
+        font-size: .8rem;
+    }
+}
+
+
+
+
